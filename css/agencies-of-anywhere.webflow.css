@@ -1614,6 +1614,10 @@ figcaption {
   background-color: #f1efe9;
 }
 
+.page-transition.full-height-mobile {
+  display: block;
+}
+
 .footer {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1950,6 +1954,26 @@ figcaption {
   height: 100%;
 }
 
+.preloader {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background-color: #130f30;
+}
+
+.preloader.full-height-mobile {
+  display: none;
+}
+
+.aside {
+  display: block;
+}
+
 @media screen and (max-width: 991px) {
   .hide-tablet {
     display: none;
@@ -2126,6 +2150,10 @@ figcaption {
     grid-template-columns: 1fr;
   }
 
+  .page-transition.full-height-mobile {
+    display: none;
+  }
+
   .header {
     position: absolute;
   }
@@ -2150,6 +2178,10 @@ figcaption {
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
+  }
+
+  .preloader.full-height-mobile {
+    display: block;
   }
 }
 
