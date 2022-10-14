@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--  Last Published: Fri Oct 14 2022 17:09:14 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Fri Oct 14 2022 17:35:56 GMT+0000 (Coordinated Universal Time)  -->
 <html
 	data-wf-page="634828063695fbd7e8566592"
 	data-wf-site="634828063695fba35a566591"
@@ -195,8 +195,8 @@
 			class="preloader full-height-mobile"
 		>
 			<div
-				data-poster-url="videos/AOA-video4-poster-00001.jpg"
-				data-video-urls="videos/AOA-video4-transcode.mp4,videos/AOA-video4-transcode.webm"
+				data-poster-url="videos/AOA-video-onboardingsmall-poster-00001.jpg"
+				data-video-urls="videos/AOA-video-onboardingsmall-transcode.mp4,videos/AOA-video-onboardingsmall-transcode.webm"
 				data-autoplay="true"
 				data-loop="false"
 				data-wf-ignore="true"
@@ -205,15 +205,20 @@
 				<video
 					id="9ac88acc-7617-63f5-16e1-d068d480a7d4-video"
 					autoplay=""
-					style="background-image: url('videos/AOA-video4-poster-00001.jpg')"
+					style="
+						background-image: url('videos/AOA-video-onboardingsmall-poster-00001.jpg');
+					"
 					muted=""
 					playsinline=""
 					data-wf-ignore="true"
 					data-object-fit="cover"
 				>
-					<source src="videos/AOA-video4-transcode.mp4" data-wf-ignore="true" />
 					<source
-						src="videos/AOA-video4-transcode.webm"
+						src="videos/AOA-video-onboardingsmall-transcode.mp4"
+						data-wf-ignore="true"
+					/>
+					<source
+						src="videos/AOA-video-onboardingsmall-transcode.webm"
 						data-wf-ignore="true"
 					/>
 				</video>
@@ -362,7 +367,7 @@
 								/><label
 									for="mce-AGENCY"
 									class="text-weight-medium text-size-small"
-									>Agency (if applicable)</label
+									>Agency name <span class="required">*</span></label
 								><input
 									type="text"
 									class="input w-input"
@@ -371,10 +376,11 @@
 									data-name="AGENCY"
 									placeholder=""
 									id="mce-AGENCY"
+									required=""
 								/><label
 									for="mce-EMAIL"
 									class="text-weight-medium text-size-small"
-									>E-mail <span class="required">*</span></label
+									>Agency e-mail <span class="required">*</span></label
 								><input
 									type="email"
 									class="input w-input"
