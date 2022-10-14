@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://register.agenciesofanywhere.com/"
+  to = "https://agenciesofanywhere.com/"
+  status = 301
+  force = true
