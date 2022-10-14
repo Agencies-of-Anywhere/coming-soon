@@ -2454,6 +2454,17 @@ figcaption {
 }
 
 @media screen and (max-width: 479px) {
+  .text-size-regular.succes-message {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    width: 100%;
+    padding: 1rem;
+    -webkit-transform: translate(0px, -50%);
+    -ms-transform: translate(0px, -50%);
+    transform: translate(0px, -50%);
+  }
+
   .hide-mobile-portrait {
     display: none;
   }
@@ -2629,7 +2640,6 @@ figcaption {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    height: 100%;
     padding: 4rem 1rem 1rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2647,21 +2657,15 @@ figcaption {
   }
 
   .form-success {
-    position: absolute;
+    position: static;
     left: 0px;
-    top: 50%;
-    -webkit-transform: translate(0px, -50%);
-    -ms-transform: translate(0px, -50%);
-    transform: translate(0px, -50%);
+    top: 0%;
+    height: 100%;
     text-align: center;
   }
 
   .form-error {
-    position: static;
-    left: 0%;
-    top: 1%;
-    right: 0%;
-    bottom: 1%;
+    position: relative;
     z-index: 1;
     margin-top: 0rem;
     margin-bottom: 0rem;
@@ -2674,6 +2678,7 @@ figcaption {
 
   .form-wrapper {
     width: 100%;
+    height: 100%;
   }
 
   .preloader.full-height-mobile {
