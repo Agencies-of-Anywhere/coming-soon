@@ -292,7 +292,7 @@ figcaption {
 }
 
 .text-size-regular {
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 
 .text-size-regular.text-weight-medium {
@@ -384,7 +384,7 @@ figcaption {
 
 .max-width-medium {
   width: 100%;
-  max-width: 32rem;
+  max-width: 25rem;
 }
 
 .max-width-xsmall {
@@ -1654,7 +1654,7 @@ figcaption {
 .heading {
   font-family: Neuehaasdisplay, sans-serif;
   color: transparent;
-  font-size: 2.9rem;
+  font-size: 2.5rem;
   font-weight: 500;
 }
 
@@ -1717,8 +1717,8 @@ figcaption {
   right: 0%;
   bottom: auto;
   width: 100%;
-  padding-top: 2.5rem;
-  padding-left: 2.5rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
 }
 
 .header_logo {
@@ -1817,6 +1817,7 @@ figcaption {
   border-radius: 0.5rem;
   background-color: #101131;
   color: #fff;
+  font-size: 0.875rem;
   font-weight: 500;
 }
 
@@ -1865,9 +1866,10 @@ figcaption {
   width: 20rem;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
-  padding: 1.25rem 1.5rem 1.25rem 1rem;
+  padding: 1rem 1.5rem 1rem 1rem;
   border: 1px solid #d3cbc6;
   border-radius: 0.35rem;
+  font-size: 0.875rem;
 }
 
 .form {
